@@ -13,3 +13,7 @@ def test_create_post():
     response = requests.post(url, json=payload)
     status_code = response.status_code
     assert status_code == 201
+
+
+
+
